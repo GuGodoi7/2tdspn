@@ -259,7 +259,6 @@
     <inspection_tool class="AndroidLintPrivateResource" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="AndroidLintProguard" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="AndroidLintProguardSplit" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="AndroidLintPropertyEscape" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="AndroidLintProtectedPermissions" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="AndroidLintProviderReadPermissionOnly" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="AndroidLintProxyPassword" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -502,7 +501,6 @@
     <inspection_tool class="CodeBlock2Expr" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="CollectionAddAllCanBeReplacedWithConstructor" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="CollectionAddedToSelf" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="CollectionContainsUrl" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="CommentedOutCode" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="ComparatorCombinators" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ComparatorMethodParameterNotUsed" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -525,7 +523,6 @@
     <inspection_tool class="ConfusingElse" enabled="false" level="INFORMATION" enabled_by_default="false">
       <option name="reportWhenNoStatementFollow" value="true" />
     </inspection_tool>
-    <inspection_tool class="ConfusingMainMethod" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ConstPropertyName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="ConstantConditionIf" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="ConstantConditionalExpression" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -642,7 +639,6 @@
     <inspection_tool class="EnumValuesSoftDeprecate" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="EnumValuesSoftDeprecateInJava" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="EqualsBetweenInconvertibleTypes" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="EqualsHashCodeCalledOnUrl" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="EqualsOnSuspiciousObject" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="EqualsOrHashCode" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="EqualsReplaceableByObjectsCall" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
@@ -1162,7 +1158,6 @@
     <inspection_tool class="RedundantLambdaOrAnonymousFunction" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="RedundantLambdaParameterType" enabled="false" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="RedundantLengthCheck" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="RedundantMethodOverride" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RedundantModalityModifier" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RedundantNullableReturnType" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RedundantObjectTypeCheck" enabled="false" level="INFORMATION" enabled_by_default="false" />
@@ -1363,7 +1358,6 @@
     <inspection_tool class="SuspiciousVarProperty" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SwitchExpressionCanBePushedDown" enabled="false" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="SwitchLabeledRuleCanBeCodeBlock" enabled="false" level="INFORMATION" enabled_by_default="false" />
-    <inspection_tool class="SwitchStatementWithConfusingDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SwitchStatementWithTooFewBranches" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="m_limit" value="2" />
     </inspection_tool>
@@ -1403,7 +1397,6 @@
     <inspection_tool class="TransitionPropertiesLabel" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TrivialFunctionalExpressionUsage" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TrivialIf" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="TrivialStringConcatenation" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TryFinallyCanBeTryWithResources" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TryStatementWithMultipleResources" enabled="false" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="TryWithIdenticalCatches" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1417,7 +1410,6 @@
     <inspection_tool class="UnaryPlus" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnclearBinaryExpression" enabled="false" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="UnclearPrecedenceOfBinaryExpression" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="UnconstrainedVariableType" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UndesirableClassUsage" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnknownLanguage" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="UnlabeledReturnInsideLambda" enabled="false" level="INFORMATION" enabled_by_default="false" />
@@ -1461,7 +1453,6 @@
     <inspection_tool class="UnnecessaryToStringCall" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnnecessaryUnaryMinus" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnnecessaryUnboxing" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="UnnecessaryUnicodeEscape" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnnecessaryVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="UnpredictableBigDecimalConstructorCall" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="ignoreReferences" value="true" />

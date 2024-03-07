@@ -14,5 +14,26 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        showFragments()
+
+    }
+    private fun showFragments() {
+        val primeiroFragment = PrimeiroFragment()
+        val SegundoFragment = SegundoFragment()
+        val args = Bundle()
+        args.putString("NomeDoUsuario", "Gustavo")
+        args.putString("IdadeDoUsuario", "18")
+
+        SegundoFragment.arguments = args
+
+        supportFragmentManager
+            .beginTransaction()
+            .replace(binding.framePrimeiroFragment.id, primeiroFragment)
+            .commit()
+
+        supportFragmentManager
+            .beginTransaction()
+            .replace(binding.frameLoyoutsegundoFragment.id , SegundoFragment)
+            .commit()
     }
 }
